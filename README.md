@@ -6,5 +6,5 @@ These are Tensorflow models for the task of classifying age and species of lab r
 
 
 <h2> Model architecture </h2>
-![CNN architecture](https://github.com/images/CNN-mosquito-architecture.png)
+![CNN architecture](https://github.com/CNN-mosquito-architecture.png)
 
