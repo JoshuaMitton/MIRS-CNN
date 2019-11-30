@@ -14,7 +14,7 @@ These are Tensorflow models for the task of classifying age and species of lab r
 
 The dataset used for this paper is available at the following address:
 
-'Link to come soon'
+```Link to come soon```
 
 <h2> Pre-trained Models </h2>
 
@@ -25,3 +25,10 @@ Prediction of lab reared lab mosquitoes
 Prediction of lab reared lab and field mosquitoes
 
 Prediction of semi-field reared mosquitoes
+
+
+<h2> Python environment </h2>
+
+```
+Python 1.3.0
+```
