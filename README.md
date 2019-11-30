@@ -16,7 +16,7 @@ The dataset used for this paper is available at the following address:
 
 ```Link to come soon```
 
-![ScreenShot](/UMAP_Embedded_Mosquito_Species.png)
+![ScreenShot](/UMAP_Embedded_Mosquito_RearCnd.png)
 
 ![ScreenShot](/UMAP_Embedded_Mosquito_Country.png)
 
