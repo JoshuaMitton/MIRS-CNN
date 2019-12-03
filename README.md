@@ -26,6 +26,8 @@ The following pre-trained models are provided:
 
 Prediction of lab reared lab mosquitoes
 
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+
 Prediction of lab reared lab and field mosquitoes
 
 Prediction of semi-field reared mosquitoes
@@ -33,8 +35,7 @@ Prediction of semi-field reared mosquitoes
 <h3> To make predictions with the pretrained models </h3>
 
 ```
-# Load in some data
-X_test = {dataloader}
+X_test = DATALOADER
 model = load_model(f'{loaddir}Baseline_CNN_Model.h5))
 y_predicted = model.predict(X_test)
 ```
