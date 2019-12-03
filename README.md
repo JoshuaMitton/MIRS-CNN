@@ -33,6 +33,8 @@ Prediction of semi-field reared mosquitoes
 <h3> To make predictions with the pretrained models </h3>
 
 ```
+# Load in some data
+X_test = {dataloader}
 model = load_model(f'{loaddir}Baseline_CNN_Model.h5))
 y_predicted = model.predict(X_test)
 ```
@@ -41,5 +43,12 @@ y_predicted = model.predict(X_test)
 <h2> Python environment </h2>
 
 ```
-Python 1.3.0
+python 3.6.8
+tensorflow-gpu 1.12.0
+keras 2.2.4
+sklearn 0.21.3
+numpy 1.17.2
+matplotlib 3.1.1
+pandas 0.25.1
+tqdm 4.36.1
 ```
