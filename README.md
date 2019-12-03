@@ -26,7 +26,7 @@ The following pre-trained models are provided:
 
 Prediction of lab reared lab mosquitoes
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+[Predict Lab Mosquitoes](/CNN/CNN-model/Results/Predict_Lab_Field/)
 
 Prediction of lab reared lab and field mosquitoes
 
