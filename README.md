@@ -7,7 +7,7 @@ These are Tensorflow models for the task of classifying age and species of lab r
 
 <h2> Model architecture </h2>
 
-![ScreenShot](/CNN-mosquito-architecture.png)
+![ScreenShot](/imgs/CNN-mosquito-architecture.png)
 
 
 <h2> Datasets </h2>
@@ -16,23 +16,39 @@ The dataset used for this paper is available at the following address:
 
 ```Link to come soon```
 
-![ScreenShot](/UMAP_Embedded_Mosquito_RearCnd.png)
+![ScreenShot](/imgs/UMAP_Embedded_Mosquito_RearCnd.png)
 
-![ScreenShot](/UMAP_Embedded_Mosquito_Country.png)
+![ScreenShot](/imgs/UMAP_Embedded_Mosquito_Country.png)
 
 <h2> Pre-trained Models </h2>
 
 The following pre-trained models are provided:
 
-Prediction of lab reared lab mosquitoes
+[Predict Lab Mosquitoes](/CNN/CNN-model/Results/Predict_Lab_Only/)
 
-Prediction of lab reared lab and field mosquitoes
+[Predict Field Mosquitoes](/CNN/CNN-model/Results/Predict_Lab_Field/)
 
-Prediction of semi-field reared mosquitoes
+[Predict Semi-Field Mosquitoes](/CNN/CNN-model/Results/Predict_Semi_Field/)
+
+
+<h3> To make predictions with the pretrained models </h3>
+
+```
+X_test = DATALOADER
+model = load_model(f'{loaddir}Baseline_CNN_Model.h5))
+y_predicted = model.predict(X_test)
+```
 
 
 <h2> Python environment </h2>
 
 ```
-Python 1.3.0
+python 3.6.8
+tensorflow-gpu 1.12.0
+keras 2.2.4
+sklearn 0.21.3
+numpy 1.17.2
+matplotlib 3.1.1
+pandas 0.25.1
+tqdm 4.36.1
 ```
