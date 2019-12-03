@@ -30,6 +30,13 @@ Prediction of lab reared lab and field mosquitoes
 
 Prediction of semi-field reared mosquitoes
 
+<h3> To make predictions with the pretrained models </h3>
+
+'''
+model = load_model(f'{loaddir}Baseline_CNN_Model.h5))
+y_predicted = model.predict(X_test)
+'''
+
 
 <h2> Python environment </h2>
 
