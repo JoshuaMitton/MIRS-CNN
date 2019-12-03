@@ -7,7 +7,7 @@ These are Tensorflow models for the task of classifying age and species of lab r
 
 <h2> Model architecture </h2>
 
-![ScreenShot](/CNN-mosquito-architecture.png)
+![ScreenShot](/imgs/CNN-mosquito-architecture.png)
 
 
 <h2> Datasets </h2>
@@ -16,9 +16,9 @@ The dataset used for this paper is available at the following address:
 
 ```Link to come soon```
 
-![ScreenShot](/UMAP_Embedded_Mosquito_RearCnd.png)
+![ScreenShot](/imgs/UMAP_Embedded_Mosquito_RearCnd.png)
 
-![ScreenShot](/UMAP_Embedded_Mosquito_Country.png)
+![ScreenShot](/imgs/UMAP_Embedded_Mosquito_Country.png)
 
 <h2> Pre-trained Models </h2>
 
