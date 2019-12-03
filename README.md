@@ -24,13 +24,12 @@ The dataset used for this paper is available at the following address:
 
 The following pre-trained models are provided:
 
-Prediction of lab reared lab mosquitoes
+[Predict Lab Mosquitoes](/CNN/CNN-model/Results/Predict_Lab/)
 
-[Predict Lab Mosquitoes](/CNN/CNN-model/Results/Predict_Lab_Field/)
+[Predict Field Mosquitoes](/CNN/CNN-model/Results/Predict_Lab_Field/)
 
-Prediction of lab reared lab and field mosquitoes
+[Predict Semi-Field Mosquitoes](/CNN/CNN-model/Results/Predict_Semi-Field/)
 
-Prediction of semi-field reared mosquitoes
 
 <h3> To make predictions with the pretrained models </h3>
 
