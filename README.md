@@ -20,6 +20,10 @@ The dataset used for this paper is available at the following address:
 
 ![ScreenShot](/imgs/UMAP_Embedded_Mosquito_Country.png)
 
+The method for data collection follows the following diagram (more details found in the paper)
+
+![ScreenShot](/imgs/MIMI-Method.png)
+
 <h2> Pre-trained Models </h2>
 
 The following pre-trained models are provided:
@@ -29,6 +33,12 @@ The following pre-trained models are provided:
 [Predict Field Mosquitoes](/CNN/CNN-model/Results/Predict_Lab_Field/)
 
 [Predict Semi-Field Mosquitoes](/CNN/CNN-model/Results/Predict_Semi_Field/)
+
+<h2> Model Sensitivity </h2>
+
+The sensitivity of the models is considered demonstrating sensitivity in useful wavenumbers:
+
+![ScreenShot](/imgs/sensitivity.png)
 
 
 <h3> To make predictions with the pretrained models </h3>
